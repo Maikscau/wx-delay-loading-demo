@@ -1,0 +1,14 @@
+.wrap {
+  background-color: #fff;
+  margin: 20rpx;
+  padding: 30rpx;
+}
+.title {
+  font-size: 36rpx;
+  color: #222;
+  margin-bottom: 16rpx;
+}
+.desc {
+  font-size: 26rpx;
+  color: #999;
+}

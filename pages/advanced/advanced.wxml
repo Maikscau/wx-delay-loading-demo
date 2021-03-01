@@ -1,0 +1,16 @@
+<view class="main">
+  <button type="primary" bindtap="exampleRequest">发起请求</button>
+  <view class="tip">请通过【调试器->Online->Slow 3G】模拟低网速环境</view>
+  <view class="tip">请勾选不校验合法域名</view>
+</view>
+
+<!-- 不使用slot -->
+<!-- <delay-loading isShow="{{isLoading}}" /> -->
+
+<!-- 使用 slot 自定义内容 -->
+<delay-loading customLoading="{{true}}" isShow="{{isLoading}}">
+  <view class="container">
+    <image class="logo" src="/images/logo.png" mode="widthFix" />
+    <view class="text">加载中...</view>
+  </view>
+</delay-loading>

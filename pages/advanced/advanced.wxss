@@ -1,0 +1,34 @@
+.main {
+  padding: 30rpx;
+  background-color: #fff;
+  margin: 20rpx;
+}
+button {
+  margin-bottom: 30rpx;
+}
+.tip {
+  font-size: 26rpx;
+  color: #999;
+  text-align: center;
+  line-height: 1.5;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 280rpx;
+  height: 140rpx;
+  border-radius: 20rpx;
+  flex-grow: 0;
+}
+.logo {
+  width: 80rpx;
+  height: auto;
+}
+.text {
+  color: #fff;
+  font-size: 30rpx;
+  line-height: 1;
+  margin-left: 20rpx;
+}

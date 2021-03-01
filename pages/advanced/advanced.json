@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "delay-loading": "wx-delay-loading/index"
+  },
+  "navigationBarTitleText": "进阶使用"
+}

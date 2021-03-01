@@ -1,0 +1,8 @@
+<view class="wrap" bindtap="toBasic">
+  <view class="title">基础</view>
+  <view class="desc">在指定页面使用</view>
+</view>
+<view class="wrap" bindtap="toAdvanced">
+  <view class="title">进阶</view>
+  <view class="desc">在全局统一封装请求中使用</view>
+</view>
